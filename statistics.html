@@ -16,8 +16,8 @@
 <body>
     <header>
         <!-- place navbar here -->
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-bs-toggle="collapse"
                         data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
@@ -34,7 +34,8 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">Dropdown</a>
                                 <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownId">
-                                    <a class="dropdown-item active" href="statistics.html">Statistieken<span class="visually-hidden">(current)</span></a>
+                                    <a class="dropdown-item active" href="statistics.html">Statistieken<span
+                                            class="visually-hidden">(current)</span></a>
                                     <a class="dropdown-item" href="#">Action 2</a>
                                 </div>
                             </li>
@@ -43,17 +44,8 @@
                 </div>
             </nav>
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-4">
+                
                         <canvas id="myChart"></canvas>
-                    </div>
-                    <div class="col-md-4">
-
-                    </div>
-                    <div class="col-md-4">
-
-                    </div>
-                </div>
             </div>
         </div>
     </header>
@@ -72,8 +64,10 @@
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
 
-        <!-- <script src="js/chart.js"></script> -->
-        
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/chart.js"></script>
+
+
 </body>
 
 </html>'
