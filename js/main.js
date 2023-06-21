@@ -1,5 +1,5 @@
 const myProfile = {
-    username: "J. Smink",
+    username: "Jayden Smink",
     mail: "302669073@student.rocmondriaan.nl",
     birthday: "08-08-2005",
     profilePicture: "...",
